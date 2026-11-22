@@ -1,0 +1,234 @@
+{
+  "源文件": "zh/data/input/inventory_normal.csv",
+  "源格式": "csv",
+  "原始记录总数": 28,
+  "去重策略": "latest",
+  "总体摘要": {
+    "唯一SKU总数": 25,
+    "库存总件数": 1004,
+    "库存总估值IDR": 141607000.0,
+    "平均单价IDR": 541880.0,
+    "已处理重复数": 3,
+    "已拒绝行数": 0,
+    "最高估值商品": {
+      "sku": "SKU-004",
+      "nama_barang": "机架式UPS不间断电源 1500VA",
+      "nilai_stok": 38400000.0
+    },
+    "最低估值商品": {
+      "sku": "SKU-001",
+      "nama_barang": "无线二维条码扫描器",
+      "nilai_stok": 0.0
+    }
+  },
+  "状态分布": {
+    "缺货": 3,
+    "预警": 6,
+    "正常": 12,
+    "积压": 4
+  },
+  "唯一元数据": {
+    "kategori": [
+      "五金工具",
+      "办公文具",
+      "包装耗材",
+      "安全防护",
+      "电子设备"
+    ],
+    "lokasi_gudang": [
+      "A号仓",
+      "B号仓",
+      "C号仓"
+    ],
+    "pemasok": [
+      "优质包装有限公司",
+      "佳安护具商行",
+      "前进物流耗材商行",
+      "办公伙伴有限公司",
+      "努桑塔拉科技有限公司",
+      "卓越网络有限公司",
+      "坚固钢材贸易公司",
+      "安捷防护有限公司",
+      "强力工程科技有限公司",
+      "恒久文印商行",
+      "独立电力有限公司",
+      "精密计量有限公司"
+    ],
+    "status_stok": [
+      "正常",
+      "积压",
+      "缺货",
+      "预警"
+    ]
+  },
+  "按类别汇总": {
+    "五金工具": {
+      "sku_count": 4,
+      "total_units": 37,
+      "total_valuation": 29180000.0,
+      "average_price": 882500.0,
+      "critical_or_out_count": 2
+    },
+    "办公文具": {
+      "sku_count": 4,
+      "total_units": 191,
+      "total_valuation": 7885000.0,
+      "average_price": 50000.0,
+      "critical_or_out_count": 1
+    },
+    "包装耗材": {
+      "sku_count": 5,
+      "total_units": 615,
+      "total_valuation": 19435000.0,
+      "average_price": 49800.0,
+      "critical_or_out_count": 1
+    },
+    "安全防护": {
+      "sku_count": 5,
+      "total_units": 72,
+      "total_valuation": 4082000.0,
+      "average_price": 130600.0,
+      "critical_or_out_count": 2
+    },
+    "电子设备": {
+      "sku_count": 7,
+      "total_units": 89,
+      "total_valuation": 81025000.0,
+      "average_price": 1273571.43,
+      "critical_or_out_count": 3
+    }
+  },
+  "按仓库汇总": {
+    "A号仓": {
+      "sku_count": 9,
+      "total_units": 193,
+      "total_valuation": 39080000.0,
+      "average_price": 594666.67,
+      "critical_or_out_count": 4
+    },
+    "B号仓": {
+      "sku_count": 8,
+      "total_units": 421,
+      "total_valuation": 70775000.0,
+      "average_price": 802000.0,
+      "critical_or_out_count": 2
+    },
+    "C号仓": {
+      "sku_count": 8,
+      "total_units": 390,
+      "total_valuation": 31752000.0,
+      "average_price": 222375.0,
+      "critical_or_out_count": 3
+    }
+  },
+  "需补货清单": [
+    {
+      "sku": "SKU-001",
+      "nama_barang": "无线二维条码扫描器",
+      "lokasi_gudang": "A号仓",
+      "stok": 0,
+      "stok_minimum": 5,
+      "status_stok": "缺货",
+      "rekomendasi_restock": 10
+    },
+    {
+      "sku": "SKU-008",
+      "nama_barang": "18V无绳锂电手电钻",
+      "lokasi_gudang": "B号仓",
+      "stok": 0,
+      "stok_minimum": 4,
+      "status_stok": "缺货",
+      "rekomendasi_restock": 8
+    },
+    {
+      "sku": "SKU-016",
+      "nama_barang": "国标工程安全头盔",
+      "lokasi_gudang": "C号仓",
+      "stok": 0,
+      "stok_minimum": 10,
+      "status_stok": "缺货",
+      "rekomendasi_restock": 20
+    },
+    {
+      "sku": "SKU-017",
+      "nama_barang": "钢包头防砸劳保鞋",
+      "lokasi_gudang": "A号仓",
+      "stok": 2,
+      "stok_minimum": 8,
+      "status_stok": "预警",
+      "rekomendasi_restock": 14
+    },
+    {
+      "sku": "SKU-002",
+      "nama_barang": "80mm热敏标签打印机",
+      "lokasi_gudang": "A号仓",
+      "stok": 3,
+      "stok_minimum": 5,
+      "status_stok": "预警",
+      "rekomendasi_restock": 7
+    },
+    {
+      "sku": "SKU-003",
+      "nama_barang": "工业级双频路由器",
+      "lokasi_gudang": "A号仓",
+      "stok": 4,
+      "stok_minimum": 6,
+      "status_stok": "预警",
+      "rekomendasi_restock": 8
+    },
+    {
+      "sku": "SKU-009",
+      "nama_barang": "1/2英寸数显扭矩扳手",
+      "lokasi_gudang": "B号仓",
+      "stok": 5,
+      "stok_minimum": 5,
+      "status_stok": "预警",
+      "rekomendasi_restock": 5
+    },
+    {
+      "sku": "SKU-012",
+      "nama_barang": "100x150mm热敏不干胶标签纸",
+      "lokasi_gudang": "C号仓",
+      "stok": 6,
+      "stok_minimum": 10,
+      "status_stok": "预警",
+      "rekomendasi_restock": 14
+    },
+    {
+      "sku": "SKU-022",
+      "nama_barang": "40x40双瓦楞加厚纸箱",
+      "lokasi_gudang": "C号仓",
+      "stok": 10,
+      "stok_minimum": 15,
+      "status_stok": "预警",
+      "rekomendasi_restock": 20
+    }
+  ],
+  "去重日志": [
+    {
+      "sku": "SKU-003",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-05",
+      "discarded_tanggal": "2026-10-10",
+      "discarded_nama": "工业级双频路由器",
+      "reason": "已被更新记录替代（2026-11-05 > 2026-10-10）。"
+    },
+    {
+      "sku": "SKU-011",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-12",
+      "discarded_tanggal": "2026-10-01",
+      "discarded_nama": "3米铝合金折叠梯",
+      "reason": "根据 'latest' 策略保留初始记录（2026-11-12）。"
+    },
+    {
+      "sku": "SKU-019",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-18",
+      "discarded_tanggal": "2026-10-15",
+      "discarded_nama": "5级防切割防护手套",
+      "reason": "已被更新记录替代（2026-11-18 > 2026-10-15）。"
+    }
+  ],
+  "拒绝行日志": []
+}

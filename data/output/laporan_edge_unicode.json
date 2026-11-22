@@ -1,0 +1,112 @@
+{
+  "sumber_file": "data/input/inventaris_edge_unicode.json",
+  "format_sumber": "json",
+  "total_baris_mentah": 4,
+  "strategi_deduplikasi": "latest",
+  "ringkasan_umum": {
+    "total_sku_unik": 3,
+    "total_unit_stok": 68,
+    "total_valuasi_idr": 105100049.0,
+    "rata_rata_harga_satuan_idr": 4345000.42,
+    "jumlah_duplikat_dihapus": 1,
+    "jumlah_baris_ditolak": 0,
+    "item_nilai_tertinggi": {
+      "sku": "SKU-J01",
+      "nama_barang": "Adaptér USB-C — PD 100W (Revisi)",
+      "nilai_stok": 100000004.0
+    },
+    "item_nilai_terendah": {
+      "sku": "SKU-J02",
+      "nama_barang": "Kabel Serat Optik — 50m",
+      "nilai_stok": 0.0
+    }
+  },
+  "distribusi_status": {
+    "HABIS": 1,
+    "KRITIS": 0,
+    "AMAN": 1,
+    "BERLEBIH": 1
+  },
+  "metadata_unik": {
+    "kategori": [
+      "Elektronik",
+      "Keselamatan Kerja"
+    ],
+    "lokasi_gudang": [
+      "GUDANG-A",
+      "GUDANG-B",
+      "GUDANG-C"
+    ],
+    "pemasok": [
+      "CV Proteksi Prima",
+      "PT Kabel Nusantara",
+      "PT Sinar Jaya™"
+    ],
+    "status_stok": [
+      "AMAN",
+      "BERLEBIH",
+      "HABIS"
+    ]
+  },
+  "rekap_per_kategori": {
+    "Elektronik": {
+      "jumlah_sku": 2,
+      "total_unit": 8,
+      "total_valuasi": 100000004.0,
+      "rata_rata_harga": 6475000.25,
+      "jumlah_kritis_atau_habis": 1
+    },
+    "Keselamatan Kerja": {
+      "jumlah_sku": 1,
+      "total_unit": 60,
+      "total_valuasi": 5100045.0,
+      "rata_rata_harga": 85000.75,
+      "jumlah_kritis_atau_habis": 0
+    }
+  },
+  "rekap_per_gudang": {
+    "GUDANG-A": {
+      "jumlah_sku": 1,
+      "total_unit": 8,
+      "total_valuasi": 100000004.0,
+      "rata_rata_harga": 12500000.5,
+      "jumlah_kritis_atau_habis": 0
+    },
+    "GUDANG-B": {
+      "jumlah_sku": 1,
+      "total_unit": 0,
+      "total_valuasi": 0.0,
+      "rata_rata_harga": 450000.0,
+      "jumlah_kritis_atau_habis": 1
+    },
+    "GUDANG-C": {
+      "jumlah_sku": 1,
+      "total_unit": 60,
+      "total_valuasi": 5100045.0,
+      "rata_rata_harga": 85000.75,
+      "jumlah_kritis_atau_habis": 0
+    }
+  },
+  "daftar_perlu_restock": [
+    {
+      "sku": "SKU-J02",
+      "nama_barang": "Kabel Serat Optik — 50m",
+      "lokasi_gudang": "GUDANG-B",
+      "stok": 0,
+      "stok_minimum": 2,
+      "status_stok": "HABIS",
+      "rekomendasi_restock": 4
+    }
+  ],
+  "log_duplikat": [
+    {
+      "sku": "SKU-J01",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-15",
+      "discarded_tanggal": "2026-10-20",
+      "discarded_nama": "Adaptér USB-C — PD 100W",
+      "reason": "Digantikan oleh record lebih baru (2026-11-15 > 2026-10-20)."
+    }
+  ],
+  "log_baris_ditolak": []
+}

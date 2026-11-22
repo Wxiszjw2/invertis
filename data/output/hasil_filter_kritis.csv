@@ -1,0 +1,7 @@
+sku,nama_barang,kategori,lokasi_gudang,stok,stok_minimum,harga_satuan,nilai_stok,status_stok,rekomendasi_restock,pemasok,tanggal_update
+SKU-002,Printer Label Thermal 80mm,Elektronik,GUDANG-A,3,5,1250000.0,3750000.0,KRITIS,7,PT Teknologi Nusantara,2026-11-02
+SKU-003,Router Industri Dual-Band,Elektronik,GUDANG-A,4,6,1850000.0,7400000.0,KRITIS,8,CV Jaringan Prima,2026-11-05
+SKU-009,Kunci Momen Digital 1/2 Inch,Perkakas,GUDANG-B,5,5,1120000.0,5600000.0,KRITIS,5,PT Teknik Perkasa,2026-11-03
+SKU-012,Kertas Label Termal 100x150mm,Alat Tulis,GUDANG-C,6,10,45000.0,270000.0,KRITIS,14,CV Pustaka Abadi,2026-11-02
+SKU-017,Sepatu Safety Steel Toe,Keselamatan Kerja,GUDANG-A,2,8,420000.0,840000.0,KRITIS,14,PT Aman Sentosa,2026-11-04
+SKU-022,Kardus Packing Double Wall 40x40,Kemasan,GUDANG-C,10,15,18500.0,185000.0,KRITIS,20,PT Kemas Prima,2026-11-08

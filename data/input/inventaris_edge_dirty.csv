@@ -1,0 +1,9 @@
+﻿sku,nama_barang,kategori,lokasi_gudang,stok,stok_minimum,harga_satuan,pemasok,tanggal_update
+  sku-901 ,Kunci Pass Set 12pcs,perkakas,gudang-a,0,0,175000,PT Teknik Perkasa,2026-11-01
+SKU-902,Senter LED Tahan Air,elektronik,GUDANG-B,15,0,120000,PT Daya Mandiri,2026-11-05
+SKU-903,Masker Respirator N95,keselamatan kerja,GUDANG-C,4,10,25000,PT Aman Sentosa,2026-11-06
+,Barang Tanpa SKU,Kemasan,GUDANG-A,5,2,10000,PT Kemas Prima,2026-11-02
+SKU-ERR2,Stok Negatif,Perkakas,GUDANG-B,-5,3,50000,CV Baja Kuat,2026-11-02
+SKU-ERR3,Harga Teks Non-Numerik,Elektronik,GUDANG-A,7,2,gratis,PT Daya Mandiri,2026-11-03
+SKU-ERR4,Tanggal Kalender Invalid,Alat Tulis,GUDANG-C,10,4,15000,CV Pustaka Abadi,2026-02-30
+SKU-ERR5,Stok Pecahan Desimal,Kemasan,GUDANG-B,4.5,2,20000,PT Kemas Prima,2026-11-04

@@ -1,0 +1,146 @@
+{
+  "sumber_file": "data/input/inventaris_edge_dirty.csv",
+  "format_sumber": "csv",
+  "total_baris_mentah": 8,
+  "strategi_deduplikasi": "latest",
+  "ringkasan_umum": {
+    "total_sku_unik": 3,
+    "total_unit_stok": 19,
+    "total_valuasi_idr": 1900000.0,
+    "rata_rata_harga_satuan_idr": 106666.67,
+    "jumlah_duplikat_dihapus": 0,
+    "jumlah_baris_ditolak": 5,
+    "item_nilai_tertinggi": {
+      "sku": "SKU-902",
+      "nama_barang": "Senter LED Tahan Air",
+      "nilai_stok": 1800000.0
+    },
+    "item_nilai_terendah": {
+      "sku": "SKU-901",
+      "nama_barang": "Kunci Pass Set 12pcs",
+      "nilai_stok": 0.0
+    }
+  },
+  "distribusi_status": {
+    "HABIS": 1,
+    "KRITIS": 1,
+    "AMAN": 1,
+    "BERLEBIH": 0
+  },
+  "metadata_unik": {
+    "kategori": [
+      "Elektronik",
+      "Keselamatan Kerja",
+      "Perkakas"
+    ],
+    "lokasi_gudang": [
+      "GUDANG-A",
+      "GUDANG-B",
+      "GUDANG-C"
+    ],
+    "pemasok": [
+      "PT Aman Sentosa",
+      "PT Daya Mandiri",
+      "PT Teknik Perkasa"
+    ],
+    "status_stok": [
+      "AMAN",
+      "HABIS",
+      "KRITIS"
+    ]
+  },
+  "rekap_per_kategori": {
+    "Elektronik": {
+      "jumlah_sku": 1,
+      "total_unit": 15,
+      "total_valuasi": 1800000.0,
+      "rata_rata_harga": 120000.0,
+      "jumlah_kritis_atau_habis": 0
+    },
+    "Keselamatan Kerja": {
+      "jumlah_sku": 1,
+      "total_unit": 4,
+      "total_valuasi": 100000.0,
+      "rata_rata_harga": 25000.0,
+      "jumlah_kritis_atau_habis": 1
+    },
+    "Perkakas": {
+      "jumlah_sku": 1,
+      "total_unit": 0,
+      "total_valuasi": 0.0,
+      "rata_rata_harga": 175000.0,
+      "jumlah_kritis_atau_habis": 1
+    }
+  },
+  "rekap_per_gudang": {
+    "GUDANG-A": {
+      "jumlah_sku": 1,
+      "total_unit": 0,
+      "total_valuasi": 0.0,
+      "rata_rata_harga": 175000.0,
+      "jumlah_kritis_atau_habis": 1
+    },
+    "GUDANG-B": {
+      "jumlah_sku": 1,
+      "total_unit": 15,
+      "total_valuasi": 1800000.0,
+      "rata_rata_harga": 120000.0,
+      "jumlah_kritis_atau_habis": 0
+    },
+    "GUDANG-C": {
+      "jumlah_sku": 1,
+      "total_unit": 4,
+      "total_valuasi": 100000.0,
+      "rata_rata_harga": 25000.0,
+      "jumlah_kritis_atau_habis": 1
+    }
+  },
+  "daftar_perlu_restock": [
+    {
+      "sku": "SKU-901",
+      "nama_barang": "Kunci Pass Set 12pcs",
+      "lokasi_gudang": "GUDANG-A",
+      "stok": 0,
+      "stok_minimum": 0,
+      "status_stok": "HABIS",
+      "rekomendasi_restock": 0
+    },
+    {
+      "sku": "SKU-903",
+      "nama_barang": "Masker Respirator N95",
+      "lokasi_gudang": "GUDANG-C",
+      "stok": 4,
+      "stok_minimum": 10,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 16
+    }
+  ],
+  "log_duplikat": [],
+  "log_baris_ditolak": [
+    {
+      "row_number": 5,
+      "sku": "-",
+      "reason": "Baris 5: Kolom 'sku' tidak boleh kosong."
+    },
+    {
+      "row_number": 6,
+      "sku": "SKU-ERR2",
+      "reason": "Baris 6: Kolom 'stok' tidak boleh bernilai negatif (-5)."
+    },
+    {
+      "row_number": 7,
+      "sku": "SKU-ERR3",
+      "reason": "Baris 7: Kolom 'harga_satuan' harus berupa angka yang valid, diterima 'gratis'."
+    },
+    {
+      "row_number": 8,
+      "sku": "SKU-ERR4",
+      "reason": "Baris 8: Kolom 'tanggal_update' bukan tanggal kalender yang valid: '2026-02-30'."
+    },
+    {
+      "row_number": 9,
+      "sku": "SKU-ERR5",
+      "reason": "Baris 9: Kolom 'stok' harus berupa bilangan bulat tanpa desimal, diterima '4.5'."
+    }
+  ]
+}

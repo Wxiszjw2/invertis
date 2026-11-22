@@ -1,0 +1,29 @@
+sku,nama_barang,kategori,lokasi_gudang,stok,stok_minimum,harga_satuan,pemasok,tanggal_update
+SKU-001,Scanner Barcode Wireless 2D,Elektronik,GUDANG-A,0,5,750000,PT Teknologi Nusantara,2026-11-01
+SKU-002,Printer Label Thermal 80mm,Elektronik,GUDANG-A,3,5,1250000,PT Teknologi Nusantara,2026-11-02
+SKU-003,Router Industri Dual-Band,Elektronik,GUDANG-A,8,6,1850000,CV Jaringan Prima,2026-10-10
+SKU-004,UPS Rackmount 1500VA,Elektronik,GUDANG-B,12,5,3200000,PT Daya Mandiri,2026-11-03
+SKU-005,Timbangan Digital 150kg,Elektronik,GUDANG-C,15,6,1450000,PT Presisi Ukur,2026-11-04
+SKU-006,Lampu Sorot LED Gudang 100W,Elektronik,GUDANG-A,20,4,320000,PT Daya Mandiri,2026-11-05
+SKU-007,Kabel LAN Cat6 UTP 10m,Elektronik,GUDANG-C,35,5,95000,CV Jaringan Prima,2026-11-06
+SKU-008,Bor Tangan Cordless 18V,Perkakas,GUDANG-B,0,4,980000,PT Teknik Perkasa,2026-11-01
+SKU-009,Kunci Momen Digital 1/2 Inch,Perkakas,GUDANG-B,5,5,1120000,PT Teknik Perkasa,2026-11-03
+SKU-010,Gerinda Sudut 4 Inch,Perkakas,GUDANG-A,14,5,540000,PT Teknik Perkasa,2026-11-04
+SKU-011,Tangga Lipat Aluminium 3m,Perkakas,GUDANG-B,18,6,890000,CV Baja Kuat,2026-11-12
+SKU-012,Kertas Label Termal 100x150mm,Alat Tulis,GUDANG-C,6,10,45000,CV Pustaka Abadi,2026-11-02
+SKU-013,Spidol Permanen Hitam (Box),Alat Tulis,GUDANG-A,40,10,72000,CV Pustaka Abadi,2026-11-03
+SKU-014,Papan Jalan Clipboard Aluminium,Alat Tulis,GUDANG-B,25,8,55000,CV Pustaka Abadi,2026-11-05
+SKU-015,Map Arsip Plastik Lever Arch,Alat Tulis,GUDANG-C,120,10,28000,PT Mitra Kantor,2026-11-06
+SKU-016,Helm Proyek Standar SNI,Keselamatan Kerja,GUDANG-C,0,10,85000,PT Aman Sentosa,2026-11-01
+SKU-017,Sepatu Safety Steel Toe,Keselamatan Kerja,GUDANG-A,2,8,420000,PT Aman Sentosa,2026-11-04
+SKU-018,Rompi Reflektif Proyek,Keselamatan Kerja,GUDANG-B,16,5,65000,PT Aman Sentosa,2026-11-05
+SKU-019,Sarung Tangan Anti-Cut Level 5,Keselamatan Kerja,GUDANG-C,3,6,48000,CV Proteksi Jaya,2026-10-15
+SKU-020,Kacamata Pelindung Bening,Keselamatan Kerja,GUDANG-A,30,10,35000,CV Proteksi Jaya,2026-11-07
+SKU-021,Lakban Bening OPP 48mm (Roll),Kemasan,GUDANG-B,300,25,14000,PT Kemas Prima,2026-11-08
+SKU-022,Kardus Packing Double Wall 40x40,Kemasan,GUDANG-C,10,15,18500,PT Kemas Prima,2026-11-08
+SKU-023,Bubble Wrap 125cm x 50m,Kemasan,GUDANG-A,80,20,115000,PT Kemas Prima,2026-11-09
+SKU-024,Stretch Film Pallet 50cm,Kemasan,GUDANG-B,45,15,92000,CV Logistik Maju,2026-11-10
+SKU-025,Karung Laminasi 50kg,Kemasan,GUDANG-C,180,20,9500,CV Logistik Maju,2026-11-10
+SKU-003,Router Industri Dual-Band,Elektronik,GUDANG-A,4,6,1850000,CV Jaringan Prima,2026-11-05
+SKU-011,Tangga Lipat Aluminium 3m,Perkakas,GUDANG-B,2,6,890000,CV Baja Kuat,2026-10-01
+ sku-019 ,Sarung Tangan Anti-Cut Level 5,keselamatan kerja,gudang-c,24,6,48000,CV Proteksi Jaya,2026-11-18

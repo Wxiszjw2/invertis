@@ -1,0 +1,146 @@
+{
+  "源文件": "zh/data/input/inventory_edge_dirty.csv",
+  "源格式": "csv",
+  "原始记录总数": 8,
+  "去重策略": "latest",
+  "总体摘要": {
+    "唯一SKU总数": 3,
+    "库存总件数": 19,
+    "库存总估值IDR": 1900000.0,
+    "平均单价IDR": 106666.67,
+    "已处理重复数": 0,
+    "已拒绝行数": 5,
+    "最高估值商品": {
+      "sku": "SKU-902",
+      "nama_barang": "防水强光LED手电筒",
+      "nilai_stok": 1800000.0
+    },
+    "最低估值商品": {
+      "sku": "SKU-901",
+      "nama_barang": "12件套开口扳手套装",
+      "nilai_stok": 0.0
+    }
+  },
+  "状态分布": {
+    "缺货": 1,
+    "预警": 1,
+    "正常": 1,
+    "积压": 0
+  },
+  "唯一元数据": {
+    "kategori": [
+      "五金工具",
+      "安全防护",
+      "电子设备"
+    ],
+    "lokasi_gudang": [
+      "A号仓",
+      "B号仓",
+      "C号仓"
+    ],
+    "pemasok": [
+      "安捷防护有限公司",
+      "强力工程科技有限公司",
+      "独立电力有限公司"
+    ],
+    "status_stok": [
+      "正常",
+      "缺货",
+      "预警"
+    ]
+  },
+  "按类别汇总": {
+    "五金工具": {
+      "sku_count": 1,
+      "total_units": 0,
+      "total_valuation": 0.0,
+      "average_price": 175000.0,
+      "critical_or_out_count": 1
+    },
+    "安全防护": {
+      "sku_count": 1,
+      "total_units": 4,
+      "total_valuation": 100000.0,
+      "average_price": 25000.0,
+      "critical_or_out_count": 1
+    },
+    "电子设备": {
+      "sku_count": 1,
+      "total_units": 15,
+      "total_valuation": 1800000.0,
+      "average_price": 120000.0,
+      "critical_or_out_count": 0
+    }
+  },
+  "按仓库汇总": {
+    "A号仓": {
+      "sku_count": 1,
+      "total_units": 0,
+      "total_valuation": 0.0,
+      "average_price": 175000.0,
+      "critical_or_out_count": 1
+    },
+    "B号仓": {
+      "sku_count": 1,
+      "total_units": 15,
+      "total_valuation": 1800000.0,
+      "average_price": 120000.0,
+      "critical_or_out_count": 0
+    },
+    "C号仓": {
+      "sku_count": 1,
+      "total_units": 4,
+      "total_valuation": 100000.0,
+      "average_price": 25000.0,
+      "critical_or_out_count": 1
+    }
+  },
+  "需补货清单": [
+    {
+      "sku": "SKU-901",
+      "nama_barang": "12件套开口扳手套装",
+      "lokasi_gudang": "A号仓",
+      "stok": 0,
+      "stok_minimum": 0,
+      "status_stok": "缺货",
+      "rekomendasi_restock": 0
+    },
+    {
+      "sku": "SKU-903",
+      "nama_barang": "N95防护口罩",
+      "lokasi_gudang": "C号仓",
+      "stok": 4,
+      "stok_minimum": 10,
+      "status_stok": "预警",
+      "rekomendasi_restock": 16
+    }
+  ],
+  "去重日志": [],
+  "拒绝行日志": [
+    {
+      "row_number": 5,
+      "sku": "-",
+      "reason": "第 5 行：字段 'sku' 不能为空。"
+    },
+    {
+      "row_number": 6,
+      "sku": "SKU-ERR2",
+      "reason": "第 6 行：字段 'stok' 不能为负数（-5）。"
+    },
+    {
+      "row_number": 7,
+      "sku": "SKU-ERR3",
+      "reason": "第 7 行：字段 'harga_satuan' 必须为有效数字，当前收到 '免费'。"
+    },
+    {
+      "row_number": 8,
+      "sku": "SKU-ERR4",
+      "reason": "第 8 行：字段 'tanggal_update' 不是有效的公历日期：'2026-02-30'。"
+    },
+    {
+      "row_number": 9,
+      "sku": "SKU-ERR5",
+      "reason": "第 9 行：字段 'stok' 必须是不含小数的整数，当前收到 '4.5'。"
+    }
+  ]
+}

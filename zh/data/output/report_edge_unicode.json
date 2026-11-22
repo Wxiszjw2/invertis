@@ -1,0 +1,112 @@
+{
+  "源文件": "zh/data/input/inventory_edge_unicode.json",
+  "源格式": "json",
+  "原始记录总数": 4,
+  "去重策略": "latest",
+  "总体摘要": {
+    "唯一SKU总数": 3,
+    "库存总件数": 68,
+    "库存总估值IDR": 105100049.0,
+    "平均单价IDR": 4345000.42,
+    "已处理重复数": 1,
+    "已拒绝行数": 0,
+    "最高估值商品": {
+      "sku": "SKU-J01",
+      "nama_barang": "USB-C PD 100W 快充适配器 — 升级版",
+      "nilai_stok": 100000004.0
+    },
+    "最低估值商品": {
+      "sku": "SKU-J02",
+      "nama_barang": "单模光纤跳线 — 50米",
+      "nilai_stok": 0.0
+    }
+  },
+  "状态分布": {
+    "缺货": 1,
+    "预警": 0,
+    "正常": 1,
+    "积压": 1
+  },
+  "唯一元数据": {
+    "kategori": [
+      "安全防护",
+      "电子设备"
+    ],
+    "lokasi_gudang": [
+      "A号仓",
+      "B号仓",
+      "C号仓"
+    ],
+    "pemasok": [
+      "佳安护具商行",
+      "华光电子™",
+      "联光电缆有限公司"
+    ],
+    "status_stok": [
+      "正常",
+      "积压",
+      "缺货"
+    ]
+  },
+  "按类别汇总": {
+    "安全防护": {
+      "sku_count": 1,
+      "total_units": 60,
+      "total_valuation": 5100045.0,
+      "average_price": 85000.75,
+      "critical_or_out_count": 0
+    },
+    "电子设备": {
+      "sku_count": 2,
+      "total_units": 8,
+      "total_valuation": 100000004.0,
+      "average_price": 6475000.25,
+      "critical_or_out_count": 1
+    }
+  },
+  "按仓库汇总": {
+    "A号仓": {
+      "sku_count": 1,
+      "total_units": 8,
+      "total_valuation": 100000004.0,
+      "average_price": 12500000.5,
+      "critical_or_out_count": 0
+    },
+    "B号仓": {
+      "sku_count": 1,
+      "total_units": 0,
+      "total_valuation": 0.0,
+      "average_price": 450000.0,
+      "critical_or_out_count": 1
+    },
+    "C号仓": {
+      "sku_count": 1,
+      "total_units": 60,
+      "total_valuation": 5100045.0,
+      "average_price": 85000.75,
+      "critical_or_out_count": 0
+    }
+  },
+  "需补货清单": [
+    {
+      "sku": "SKU-J02",
+      "nama_barang": "单模光纤跳线 — 50米",
+      "lokasi_gudang": "B号仓",
+      "stok": 0,
+      "stok_minimum": 2,
+      "status_stok": "缺货",
+      "rekomendasi_restock": 4
+    }
+  ],
+  "去重日志": [
+    {
+      "sku": "SKU-J01",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-15",
+      "discarded_tanggal": "2026-10-20",
+      "discarded_nama": "USB-C PD 100W 快充适配器 — 国际版",
+      "reason": "已被更新记录替代（2026-11-15 > 2026-10-20）。"
+    }
+  ],
+  "拒绝行日志": []
+}

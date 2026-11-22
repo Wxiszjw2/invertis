@@ -1,0 +1,46 @@
+[
+  {
+    "sku": "SKU-J01",
+    "nama_barang": "Adaptér USB-C — PD 100W",
+    "kategori": "Elektronik",
+    "lokasi_gudang": "GUDANG-A",
+    "stok": 5,
+    "stok_minimum": 3,
+    "harga_satuan": 12500000.5,
+    "pemasok": "PT Sinar Jaya™",
+    "tanggal_update": "2026-10-20"
+  },
+  {
+    "sku": "SKU-J02",
+    "nama_barang": "Kabel Serat Optik — 50m",
+    "kategori": "Elektronik",
+    "lokasi_gudang": "GUDANG-B",
+    "stok": 0,
+    "stok_minimum": 2,
+    "harga_satuan": 450000,
+    "pemasok": "PT Kabel Nusantara",
+    "tanggal_update": "2026-11-01"
+  },
+  {
+    "sku": "SKU-J03",
+    "nama_barang": "Pelindung Mata Anti-UV (€-Class)",
+    "kategori": "Keselamatan Kerja",
+    "lokasi_gudang": "GUDANG-C",
+    "stok": 60,
+    "stok_minimum": 10,
+    "harga_satuan": 85000.75,
+    "pemasok": "CV Proteksi Prima",
+    "tanggal_update": "2026-11-10"
+  },
+  {
+    "sku": " sku-j01 ",
+    "nama_barang": "Adaptér USB-C — PD 100W (Revisi)",
+    "kategori": "elektronik",
+    "lokasi_gudang": "gudang-a",
+    "stok": 8,
+    "stok_minimum": 3,
+    "harga_satuan": 12500000.5,
+    "pemasok": "PT Sinar Jaya™",
+    "tanggal_update": "2026-11-15"
+  }
+]

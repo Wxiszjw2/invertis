@@ -1,0 +1,33 @@
+{
+  "sumber_file": "data/input/inventaris_edge_empty.csv",
+  "format_sumber": "csv",
+  "total_baris_mentah": 0,
+  "strategi_deduplikasi": "latest",
+  "ringkasan_umum": {
+    "total_sku_unik": 0,
+    "total_unit_stok": 0,
+    "total_valuasi_idr": 0.0,
+    "rata_rata_harga_satuan_idr": 0.0,
+    "jumlah_duplikat_dihapus": 0,
+    "jumlah_baris_ditolak": 0,
+    "item_nilai_tertinggi": null,
+    "item_nilai_terendah": null
+  },
+  "distribusi_status": {
+    "HABIS": 0,
+    "KRITIS": 0,
+    "AMAN": 0,
+    "BERLEBIH": 0
+  },
+  "metadata_unik": {
+    "kategori": [],
+    "lokasi_gudang": [],
+    "pemasok": [],
+    "status_stok": []
+  },
+  "rekap_per_kategori": {},
+  "rekap_per_gudang": {},
+  "daftar_perlu_restock": [],
+  "log_duplikat": [],
+  "log_baris_ditolak": []
+}

@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inventrack-cli"
+version = "1.1.0"
+description = "Deterministic warehouse inventory validation, deduplication, and restock analytics CLI."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Robani Ichsan" },
+]
+keywords = ["cli", "inventory", "csv", "json", "warehouse", "analytics"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Wxiszjw2/invertis"
+Repository = "https://github.com/Wxiszjw2/invertis.git"
+Mirror = "https://gitee.com/Wxiszjw/inventrack-cli"
+
+[project.scripts]
+inventrack = "inventrack.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["inventrack*"]

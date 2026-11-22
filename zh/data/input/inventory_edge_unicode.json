@@ -1,0 +1,46 @@
+[
+  {
+    "sku": "SKU-J01",
+    "nama_barang": "USB-C PD 100W 快充适配器 — 国际版",
+    "kategori": "电子设备",
+    "lokasi_gudang": "A号仓",
+    "stok": 5,
+    "stok_minimum": 3,
+    "harga_satuan": 12500000.5,
+    "pemasok": "华光电子™",
+    "tanggal_update": "2026-10-20"
+  },
+  {
+    "sku": "SKU-J02",
+    "nama_barang": "单模光纤跳线 — 50米",
+    "kategori": "电子设备",
+    "lokasi_gudang": "B号仓",
+    "stok": 0,
+    "stok_minimum": 2,
+    "harga_satuan": 450000,
+    "pemasok": "联光电缆有限公司",
+    "tanggal_update": "2026-11-01"
+  },
+  {
+    "sku": "SKU-J03",
+    "nama_barang": "防紫外线工业护目镜 (€-Class)",
+    "kategori": "安全防护",
+    "lokasi_gudang": "C号仓",
+    "stok": 60,
+    "stok_minimum": 10,
+    "harga_satuan": 85000.75,
+    "pemasok": "佳安护具商行",
+    "tanggal_update": "2026-11-10"
+  },
+  {
+    "sku": " sku-j01 ",
+    "nama_barang": "USB-C PD 100W 快充适配器 — 升级版",
+    "kategori": "电子设备",
+    "lokasi_gudang": "a号仓",
+    "stok": 8,
+    "stok_minimum": 3,
+    "harga_satuan": 12500000.5,
+    "pemasok": "华光电子™",
+    "tanggal_update": "2026-11-15"
+  }
+]

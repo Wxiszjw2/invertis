@@ -1,0 +1,234 @@
+{
+  "sumber_file": "data/input/inventaris_normal.csv",
+  "format_sumber": "csv",
+  "total_baris_mentah": 28,
+  "strategi_deduplikasi": "latest",
+  "ringkasan_umum": {
+    "total_sku_unik": 25,
+    "total_unit_stok": 1004,
+    "total_valuasi_idr": 141607000.0,
+    "rata_rata_harga_satuan_idr": 541880.0,
+    "jumlah_duplikat_dihapus": 3,
+    "jumlah_baris_ditolak": 0,
+    "item_nilai_tertinggi": {
+      "sku": "SKU-004",
+      "nama_barang": "UPS Rackmount 1500VA",
+      "nilai_stok": 38400000.0
+    },
+    "item_nilai_terendah": {
+      "sku": "SKU-001",
+      "nama_barang": "Scanner Barcode Wireless 2D",
+      "nilai_stok": 0.0
+    }
+  },
+  "distribusi_status": {
+    "HABIS": 3,
+    "KRITIS": 6,
+    "AMAN": 12,
+    "BERLEBIH": 4
+  },
+  "metadata_unik": {
+    "kategori": [
+      "Alat Tulis",
+      "Elektronik",
+      "Kemasan",
+      "Keselamatan Kerja",
+      "Perkakas"
+    ],
+    "lokasi_gudang": [
+      "GUDANG-A",
+      "GUDANG-B",
+      "GUDANG-C"
+    ],
+    "pemasok": [
+      "CV Baja Kuat",
+      "CV Jaringan Prima",
+      "CV Logistik Maju",
+      "CV Proteksi Jaya",
+      "CV Pustaka Abadi",
+      "PT Aman Sentosa",
+      "PT Daya Mandiri",
+      "PT Kemas Prima",
+      "PT Mitra Kantor",
+      "PT Presisi Ukur",
+      "PT Teknik Perkasa",
+      "PT Teknologi Nusantara"
+    ],
+    "status_stok": [
+      "AMAN",
+      "BERLEBIH",
+      "HABIS",
+      "KRITIS"
+    ]
+  },
+  "rekap_per_kategori": {
+    "Alat Tulis": {
+      "jumlah_sku": 4,
+      "total_unit": 191,
+      "total_valuasi": 7885000.0,
+      "rata_rata_harga": 50000.0,
+      "jumlah_kritis_atau_habis": 1
+    },
+    "Elektronik": {
+      "jumlah_sku": 7,
+      "total_unit": 89,
+      "total_valuasi": 81025000.0,
+      "rata_rata_harga": 1273571.43,
+      "jumlah_kritis_atau_habis": 3
+    },
+    "Kemasan": {
+      "jumlah_sku": 5,
+      "total_unit": 615,
+      "total_valuasi": 19435000.0,
+      "rata_rata_harga": 49800.0,
+      "jumlah_kritis_atau_habis": 1
+    },
+    "Keselamatan Kerja": {
+      "jumlah_sku": 5,
+      "total_unit": 72,
+      "total_valuasi": 4082000.0,
+      "rata_rata_harga": 130600.0,
+      "jumlah_kritis_atau_habis": 2
+    },
+    "Perkakas": {
+      "jumlah_sku": 4,
+      "total_unit": 37,
+      "total_valuasi": 29180000.0,
+      "rata_rata_harga": 882500.0,
+      "jumlah_kritis_atau_habis": 2
+    }
+  },
+  "rekap_per_gudang": {
+    "GUDANG-A": {
+      "jumlah_sku": 9,
+      "total_unit": 193,
+      "total_valuasi": 39080000.0,
+      "rata_rata_harga": 594666.67,
+      "jumlah_kritis_atau_habis": 4
+    },
+    "GUDANG-B": {
+      "jumlah_sku": 8,
+      "total_unit": 421,
+      "total_valuasi": 70775000.0,
+      "rata_rata_harga": 802000.0,
+      "jumlah_kritis_atau_habis": 2
+    },
+    "GUDANG-C": {
+      "jumlah_sku": 8,
+      "total_unit": 390,
+      "total_valuasi": 31752000.0,
+      "rata_rata_harga": 222375.0,
+      "jumlah_kritis_atau_habis": 3
+    }
+  },
+  "daftar_perlu_restock": [
+    {
+      "sku": "SKU-001",
+      "nama_barang": "Scanner Barcode Wireless 2D",
+      "lokasi_gudang": "GUDANG-A",
+      "stok": 0,
+      "stok_minimum": 5,
+      "status_stok": "HABIS",
+      "rekomendasi_restock": 10
+    },
+    {
+      "sku": "SKU-008",
+      "nama_barang": "Bor Tangan Cordless 18V",
+      "lokasi_gudang": "GUDANG-B",
+      "stok": 0,
+      "stok_minimum": 4,
+      "status_stok": "HABIS",
+      "rekomendasi_restock": 8
+    },
+    {
+      "sku": "SKU-016",
+      "nama_barang": "Helm Proyek Standar SNI",
+      "lokasi_gudang": "GUDANG-C",
+      "stok": 0,
+      "stok_minimum": 10,
+      "status_stok": "HABIS",
+      "rekomendasi_restock": 20
+    },
+    {
+      "sku": "SKU-017",
+      "nama_barang": "Sepatu Safety Steel Toe",
+      "lokasi_gudang": "GUDANG-A",
+      "stok": 2,
+      "stok_minimum": 8,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 14
+    },
+    {
+      "sku": "SKU-002",
+      "nama_barang": "Printer Label Thermal 80mm",
+      "lokasi_gudang": "GUDANG-A",
+      "stok": 3,
+      "stok_minimum": 5,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 7
+    },
+    {
+      "sku": "SKU-003",
+      "nama_barang": "Router Industri Dual-Band",
+      "lokasi_gudang": "GUDANG-A",
+      "stok": 4,
+      "stok_minimum": 6,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 8
+    },
+    {
+      "sku": "SKU-009",
+      "nama_barang": "Kunci Momen Digital 1/2 Inch",
+      "lokasi_gudang": "GUDANG-B",
+      "stok": 5,
+      "stok_minimum": 5,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 5
+    },
+    {
+      "sku": "SKU-012",
+      "nama_barang": "Kertas Label Termal 100x150mm",
+      "lokasi_gudang": "GUDANG-C",
+      "stok": 6,
+      "stok_minimum": 10,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 14
+    },
+    {
+      "sku": "SKU-022",
+      "nama_barang": "Kardus Packing Double Wall 40x40",
+      "lokasi_gudang": "GUDANG-C",
+      "stok": 10,
+      "stok_minimum": 15,
+      "status_stok": "KRITIS",
+      "rekomendasi_restock": 20
+    }
+  ],
+  "log_duplikat": [
+    {
+      "sku": "SKU-003",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-05",
+      "discarded_tanggal": "2026-10-10",
+      "discarded_nama": "Router Industri Dual-Band",
+      "reason": "Digantikan oleh record lebih baru (2026-11-05 > 2026-10-10)."
+    },
+    {
+      "sku": "SKU-011",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-12",
+      "discarded_tanggal": "2026-10-01",
+      "discarded_nama": "Tangga Lipat Aluminium 3m",
+      "reason": "Dipertahankan record awal (2026-11-12) berdasarkan strategi 'latest'."
+    },
+    {
+      "sku": "SKU-019",
+      "strategy": "latest",
+      "kept_tanggal": "2026-11-18",
+      "discarded_tanggal": "2026-10-15",
+      "discarded_nama": "Sarung Tangan Anti-Cut Level 5",
+      "reason": "Digantikan oleh record lebih baru (2026-11-18 > 2026-10-15)."
+    }
+  ],
+  "log_baris_ditolak": []
+}
